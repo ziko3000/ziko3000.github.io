@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d0ec77c4.css",
-    "main.js": "/static/js/main.565710a4.js",
+    "main.js": "/static/js/main.bb0daa55.js",
     "static/media/Techcom.jpg": "/static/media/Techcom.f49766f6937e3aab0386.jpg",
     "static/media/Stars.svg": "/static/media/Stars.d1095ee05de26bf14431.svg",
     "static/media/StockPriceImg.jpg": "/static/media/StockPriceImg.3e843c8721d1bf062efa.jpg",
@@ -11,10 +11,10 @@
     "static/media/Moon.svg": "/static/media/Moon.af67517e74aa31c8ed4d.svg",
     "index.html": "/index.html",
     "main.d0ec77c4.css.map": "/static/css/main.d0ec77c4.css.map",
-    "main.565710a4.js.map": "/static/js/main.565710a4.js.map"
+    "main.bb0daa55.js.map": "/static/js/main.bb0daa55.js.map"
   },
   "entrypoints": [
     "static/css/main.d0ec77c4.css",
-    "static/js/main.565710a4.js"
+    "static/js/main.bb0daa55.js"
   ]
 }
