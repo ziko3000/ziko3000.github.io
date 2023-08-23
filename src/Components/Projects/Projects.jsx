@@ -30,7 +30,7 @@ const Projects = props => {
               Built using Node, Express, MongoDB, CSS + Bulma, React.js.
             </small>
             <p>
-            An asset manager specializing in niche alternative investment strategies.
+            Optimized API response time by using best practices for error handling, data validation, and middleware Implemented caching strategies using Redis, resulting in a 30% reduction in server response time 
             </p>
           </Project>
           <Project
@@ -41,9 +41,11 @@ const Projects = props => {
           >
             <small>
             Designed and developed a DeFi project on Ethereum blockchain using Solidity, Ethers.js, Node.js, and TypeScript 
-Implemented smart contract functionality for a decentralized exchange and liquidity pools 
-Designed and integrated a custom token for the platform and developed airdrop and staking 
+
             </small>
+            <p>Implemented smart contract functionality for a decentralized exchange and liquidity pools 
+Designed and integrated a custom token for the platform and developed airdrop and staking 
+              </p>
           </Project>
           <Project
             title="Tidio"
@@ -52,9 +54,10 @@ Designed and integrated a custom token for the platform and developed airdrop an
             link="https://www.tidio.com/"
           >
             <small>
-            Developed and maintained a real-time chat application using Node.js, TypeScript, and Socket.io Optimized database queries and implemented indexing, resulting in a 50% reduction in query execution time Implemented user authentication and authorization using JWT tokens and role-based access control 
-Used Redis to implement chat message caching and reduce response time 
+            Developed and maintained a real-time chat application using Node.js, TypeScript, and Socket.io 
             </small>
+            <p>Optimized database queries and implemented indexing, resulting in a 50% reduction in query execution time Implemented user authentication and authorization using JWT tokens and role-based access control 
+Used Redis to implement chat message caching and reduce response time </p>
           </Project>
           <Project
             title="Techcombank"
@@ -63,9 +66,11 @@ Used Redis to implement chat message caching and reduce response time
             link="https://techcombank.com/"
           >
             <small>
-            Developed and maintained a real-time chat application using Node.js, TypeScript, and Socket.io Optimized database queries and implemented indexing, resulting in a 50% reduction in query execution time Implemented user authentication and authorization using JWT tokens and role-based access control 
-Used Redis to implement chat message caching and reduce response time 
+            Developed and maintained a real-time chat application using Node.js, TypeScript, and Socket.io 
+            
             </small>
+            <p>Crafted 20+ RESTful APIs for account management, payment gateways, and data analytics, enhancing the robustness of the application. 
+Profiled and optimized application bottlenecks, achieving a 60% increase in server response times and a 25% reduction in page load times. </p>
           </Project>
  
         </div>

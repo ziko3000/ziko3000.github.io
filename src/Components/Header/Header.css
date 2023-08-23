@@ -126,6 +126,7 @@
 }
 
 #welcome-section .container h1 {
+  font-size: 5rem;
   font-size: 4rem;
   font-weight: normal;
   font-style: italic;
@@ -213,4 +214,50 @@
   .silhouette {
     width: 100%;
   }
+}
+/* Static text styling */
+.static {
+  font-size: 8rem;
+  display: block;
+  font-size: 2.5rem;
+  color: #fafafa;
+  margin-bottom: 1rem;
+}
+
+/* Typewriter animation styling */
+.animated {
+  font-size: 7rem;
+  font-size: 2rem;
+  color: #f300b4;
+  border-right: 0.1em solid #f300b4;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 4s steps(30, end), blink 0.5s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+/* Static size for buttons */
+#welcome-section .container .buttons a {
+  min-width: 150px;
+  display: inline-block;
+}
+
+#welcome-section .container h1 .static {
+  font-size: 5rem !important;
+}
+
+#welcome-section .container h1 .animated {
+  font-size: 3rem !important;
+}
+
+#welcome-section .container h1 .static {
+  margin-bottom: 2rem !important;
 }

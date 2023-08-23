@@ -3,7 +3,7 @@ import './About.css';
 
 const About = props => {
   return (
-    <section id="about">
+    <section id="about" >
       <div className="wrapper">
         <article>
           <div className="title">
@@ -13,7 +13,7 @@ const About = props => {
           <div className="desc full">
             <h4 className="subtitle">My name is Misha Fam.</h4>
             <p>
-              I am a Web 3 developer and Node.js developer from Ukraine with more than 4 years of experience. I worked on numerous projects in Fintech and many more.
+              I am a Node.js developer from Ukraine with more than 4 years of experience. I worked on numerous projects in Fintech and many more.
             </p>
             <p>
               I really enjoy solving problems as well as making things pretty and easy to use. I
@@ -35,19 +35,22 @@ const About = props => {
                 <br />
                 <strong style={{ fontWeight: 'bold' }}>Clean Collaboration:</strong> I write clean, documented code for seamless teamwork and future evolution.           </p>
             <p>
-            <strong style={{ fontWeight: 'bold' }}>Technologies:</strong> Node.js
-Express.js
-RESTful APIs
-WebSocket Services
-Microservices Architecture
-Database Design (SQL/NoSQL)
-Caching Strategies
-Authentication & Authorization
-Server Optimization
-GraphQL
-Message Queues (e.g., RabbitMQ, Kafka)
-ORM/ODM (e.g., Sequelize, Mongoose),Cloud Platforms (e.g., AWS, Azure, Google Cloud)
-                <br />
+            <div className="tech-list">
+  <div className="tech-item" data-aos="fade-up">Node.js</div>
+  <div className="tech-item" data-aos="fade-up">Express.js</div>
+  <div className="tech-item" data-aos="fade-up">Nest.js</div>
+  <div className="tech-item" data-aos="fade-up">RESTful APIs</div>
+  <div className="tech-item" data-aos="fade-up">WebSocket Services</div>
+  <div className="tech-item" data-aos="fade-up">Microservices Architecture</div>
+  <div className="tech-item" data-aos="fade-up">Database Design (SQL/NoSQL)</div>
+  <div className="tech-item" data-aos="fade-up">Caching Strategies</div>
+  <div className="tech-item" data-aos="fade-up">Authentication & Authorization</div>
+  <div className="tech-item" data-aos="fade-up">Server Optimization</div>
+  <div className="tech-item" data-aos="fade-up">GraphQL</div>
+  <div className="tech-item" data-aos="fade-up">Message Queues (e.g., RabbitMQ, Kafka)</div>
+  <div className="tech-item" data-aos="fade-up">ORM/ODM (e.g., Sequelize, Mongoose)</div>
+  <div className="tech-item" data-aos="fade-up">Cloud Platforms (e.g., AWS, Azure, Google Cloud)</div>
+</div>
             </p>
           </div>
           <div className="desc">
@@ -63,18 +66,19 @@ ORM/ODM (e.g., Sequelize, Mongoose),Cloud Platforms (e.g., AWS, Azure, Google Cl
 
             </p>
             <p>
-            <strong style={{ fontWeight: 'bold' }}>Technologies:</strong> Ethereum Blockchain
-Solidity Smart Contracts
-Web3.js: Ethereum JavaScript API
-Hardhat: Ethereum Development Environment
-MetaMask: Ethereum Wallet and Browser Extension
-DeFi Protocols
-ERC-20 & ERC-721 Tokens
-IPFS: Decentralized Storage
-Chainlink: Decentralized Oracle Network
-Testnets: Ropsten, Rinkeby, Kovan
-Mainnet Deployment & Auditing
-                <br />
+            <div className="tech-list">
+  <div className="tech-item" data-aos="fade-up">Ethereum Blockchain</div>
+  <div className="tech-item" data-aos="fade-up">Solidity Smart Contracts</div>
+  <div className="tech-item" data-aos="fade-up">Ethers</div>
+  <div className="tech-item" data-aos="fade-up">Hardhat: Ethereum Development Environment</div>
+  <div className="tech-item" data-aos="fade-up">MetaMask: Ethereum Wallet and Browser Extension</div>
+  <div className="tech-item" data-aos="fade-up">DeFi Protocols</div>
+  <div className="tech-item" data-aos="fade-up">ERC-20 & ERC-721 Tokens</div>
+  <div className="tech-item" data-aos="fade-up">IPFS: Decentralized Storage</div>
+  <div className="tech-item" data-aos="fade-up">Chainlink: Decentralized Oracle Network</div>
+  <div className="tech-item" data-aos="fade-up">Testnets: Ropsten, Rinkeby, Kovan</div>
+  <div className="tech-item" data-aos="fade-up">Mainnet Deployment & Auditing</div>
+</div>
             </p>
           </div>
         </article>

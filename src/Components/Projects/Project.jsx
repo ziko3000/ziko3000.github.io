@@ -12,7 +12,7 @@ const Project = props => {
     hardhat: 'fa-solid fa-helmet-safety',
     python:'fab fa-python',
     ethereum: 'fab fa-ethereum',
-    // solidity: 'your-solidity-icon-class',a
+    // solidity: 'your-solidity-icon-class',
     // ethers: 'your-ethers-icon-class',
     // metamask: 'your-metamask-icon-class',
     // ipfs: 'your-ipfs-icon-class',
@@ -20,7 +20,6 @@ const Project = props => {
   };
 
   const link = props.link || 'http://';
-  const repo = props.repo || 'http://';
 
   return (
     <div className="project">
@@ -38,11 +37,8 @@ const Project = props => {
         </div>
         {props.children}
         <div className="buttons">
-          <a href={repo} target="_blank" rel="noopener noreferrer">
-            View source <i className="fas fa-external-link-alt" />
-          </a>
           <a href={link} target="_blank" rel="noopener noreferrer">
-            Try it Live <i className="fas fa-external-link-alt" />
+            Link <i className="fas fa-external-link-alt" />
           </a>
         </div>
       </div>

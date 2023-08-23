@@ -112,10 +112,20 @@
   font-weight: normal;
   font-size: 1.4rem;
 }
+.project-card:hover .tech-icon {
+  animation: rotateTechIcon 0.5s linear;
+}
+@keyframes rotateTechIcon {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(15deg); }
+  100% { transform: rotate(0deg); }
+}
 
 /* Text */
 #projects .project-details small {
-  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;  /* Bolder titles */
+  font-size: 1.5rem;
 }
 
 #projects .project-details p {
@@ -147,6 +157,17 @@
   font-size: .8rem;
   vertical-align: middle;
   margin-left: .5rem;;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);  /* Slightly elevate on hover */
+  transition: transform 0.3s;
+  border-radius: 10px;  /* Smooth transition */
+}
+.try-live-button:hover {
+  transform: scale(1.05);  /* Slightly enlarge the button on hover */
+  background-color: #333;  /* Change the button color on hover */
+  transition: transform 0.3s, background-color 0.3s;  /* Smooth transition */
 }
 
 

@@ -13,6 +13,16 @@ const SocialLinks = props => {
         <i className="fab fa-twitter" />
       </a>
       <a
+        href="https://t.me/dit_me"
+        target="_blank"
+        rel="noopener noreferrer"
+        title="Link to author's Telegram profile"
+      >
+        {' '}
+        <i className="fab fa-telegram" />
+      </a>
+      
+      <a
         id="profile-link"
         href="https://github.com/ziko3000"
         target="_blank"
