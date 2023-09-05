@@ -11,7 +11,7 @@ const About = props => {
             <p className="separator" />
           </div>
           <div className="desc full">
-            <h4 className="subtitle">My name is Maxim Fam.</h4>
+            <h4 className="subtitle">My name is Min(Maxim) Pham.</h4>
             <p>
               I am a Node.js developer from Ukraine with more than 4 years of experience. I worked on numerous projects in Fintech and many more.
             </p>
