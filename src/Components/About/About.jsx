@@ -15,7 +15,7 @@ const About = props => {
             <h4 className="subtitle">My name is Min Fam.</h4>
 
             <p>
-              I am a Node.js developer from Kharkiv, Ukraine with more than 5 years of experience. I come from a Vietnamese family but was born and raised in Ukraine, where I grew up and developed my passion. I worked on numerous projects in Fintech, Sports and many more.
+              I am a Node.js developer from Kharkiv, Ukraine with more than 5 years of experience and 3 years in Blockchain Web3 I come from a Vietnamese family but was born and raised in Ukraine, where I grew up and developed my passion. I worked on numerous projects in Fintech, Sports and many more.
             </p>
             <p>
               I really enjoy solving problems as well as making things pretty and easy to use. I
