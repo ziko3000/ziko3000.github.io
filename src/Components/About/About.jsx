@@ -11,11 +11,9 @@ const About = props => {
             <p className="separator" />
           </div>
           <div className="desc full">
-<<<<<<< HEAD
+
             <h4 className="subtitle">My name is Min Fam.</h4>
-=======
-            <h4 className="subtitle">My name is Min(Maxim) Fam.</h4>
->>>>>>> 5f45380e9f34680fef229ba0e780db6464307ec6
+
             <p>
               I am a Node.js developer from Ukraine with more than 4 years of experience. I worked on numerous projects in Fintech and many more.
             </p>
