@@ -46,7 +46,7 @@ const Header = props => {
       <div className="moon" />
       <div className="container">
         <h1>
-          <span className="static">Hello, I am Misha</span>
+          <span className="static">Hello, I am Min</span>
           <span className="animated" ref={refTypewriter}></span>
         </h1>
         <div className="buttons">
