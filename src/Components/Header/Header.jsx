@@ -34,9 +34,11 @@ const Header = props => {
         } else {
           charIndex = 0;
           arrayIndex++;
-          if (arrayIndex < textArray.length) {
-            setTimeout(typing, 500); // Delay before typing the next text
+          if (arrayIndex >= textArray.length) {
+            arrayIndex = 0;
+             // Delay before typing the next text
           }
+          setTimeout(typing, 500);
         }
       };
 
