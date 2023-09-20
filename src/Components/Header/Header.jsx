@@ -13,14 +13,14 @@ const Header = props => {
         "Web 3.0 enthusiast",
         "Bridging tech & creativity"
       ];
-      let arrayIndex = 0;
+      let arrayIndex = 0; 
       let charIndex = 0;
 
       const typing = () => {
         if (charIndex < textArray[arrayIndex].length) {
           element.textContent += textArray[arrayIndex].charAt(charIndex);
           charIndex++;
-          setTimeout(typing, 150);
+          setTimeout(typing, 75);
         } else {
           charIndex = 0;
           arrayIndex++;
