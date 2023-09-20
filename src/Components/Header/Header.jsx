@@ -13,7 +13,7 @@ const Header = props => {
         "Web 3.0 enthusiast",
         "Bridging tech & creativity"
       ];
-      let arrayIndex = 0; 
+      let arrayIndex = 0;
       let charIndex = 0;
 
       const typing = () => {
@@ -22,16 +22,25 @@ const Header = props => {
           charIndex++;
           setTimeout(typing, 75);
         } else {
+          setTimeout(erase, 500); // Small delay before starting the erase
+        }
+      };
+
+      const erase = () => {
+        if (charIndex >= 0) {
+          element.textContent = textArray[arrayIndex].substring(0, charIndex);
+          charIndex--;
+          setTimeout(erase, 75);
+        } else {
           charIndex = 0;
           arrayIndex++;
           if (arrayIndex < textArray.length) {
-            element.textContent = '';
-            setTimeout(typing, 1500);
+            setTimeout(typing, 500); // Delay before typing the next text
           }
         }
       };
 
-      typing();
+      typing();  // We start with typing
     };
 
     if (refTypewriter.current) {
